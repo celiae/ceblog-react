@@ -1,0 +1,7 @@
+.col {
+  display: grid;
+  place-items: center;
+}
+.ButtonWrapper {
+  width: 5rem;
+}

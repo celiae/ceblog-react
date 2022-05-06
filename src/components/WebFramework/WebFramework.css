@@ -1,0 +1,22 @@
+.WebFrameworks {
+  display: grid;
+  gap: 5px;
+}
+.Framework {
+  display: grid;
+  place-items: center;
+  height: 8rem;
+  background: var(--dark);
+  color: var(--light);
+  font-size: 1.7rem;
+  padding: 10px;
+}
+.FrameworkName {
+  font-size: 2rem;
+}
+.FrameworkCreator {
+  font-size: 1.5rem;
+  display: flex;
+  justify-self: end;
+  color: var(--blue);
+}

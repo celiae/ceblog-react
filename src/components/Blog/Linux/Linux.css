@@ -1,0 +1,29 @@
+.Commands {
+  display: grid;
+  gap: 1rem;
+}
+.BlogLinks {
+  display: flex;
+  justify-content: space-around;
+  background: var(--blue);
+  color: var(--dark);
+  text-decoration: none;
+}
+.LinkUrl {
+  color: var(--dark);
+}
+.CommandText {
+  text-align: start;
+  padding: 0 1.5rem;
+  background: var(--lightblue);
+}
+.Command {
+  display: flex;
+  background: var(--dark);
+  color: aliceblue;
+  padding: 0 0 0 1rem;
+}
+.Code {
+  width: 100%;
+  text-align: start;
+}

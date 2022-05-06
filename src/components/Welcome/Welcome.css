@@ -1,0 +1,37 @@
+.Welcome {
+  display: grid;
+  grid-template-rows: 25rem 18rem;
+  background: var(--blue);
+}
+.Upper {
+  background: var(--dark);
+}
+.Icon {
+  color: var(--light);
+  margin: 4rem auto 4rem auto;
+}
+.Go {
+  background: var(--blue);
+  color: var(--light);
+  width: 80%;
+  margin: auto;
+  border-radius: 1rem;
+  height: 4rem;
+  display: grid;
+  place-items: center;
+  box-shadow: 0rem .5rem .7rem var(--light);
+}
+.Github {
+  background: var(--dark);
+  color: var(--light);
+  margin: 3rem auto auto auto;
+  width: 80%;
+  border-radius: 1rem;
+  height: 4rem;
+  display: grid;
+  place-items: center;
+  box-shadow: 0rem -0.5rem .7rem var(--blue);
+}
+.Lower {
+  background: var(--light);
+}

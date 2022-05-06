@@ -1,0 +1,11 @@
+.MobileFooter {
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background: var(--light);
+  padding: 0.5rem;
+  z-index: 0;
+}

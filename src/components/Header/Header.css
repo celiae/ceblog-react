@@ -1,0 +1,14 @@
+.Header {
+  background: var(--light);
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  height: 3rem;
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+  font-size: 2rem;
+  font-family: Tapestry;
+}

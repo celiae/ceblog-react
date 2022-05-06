@@ -1,0 +1,21 @@
+.about {
+  height: 100vh;
+  padding-top: 2rem;
+}
+.about p {
+  text-align: start;
+  text-indent: 2rem;
+}
+.Usages {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.Usage {
+  background: var(--blue);
+  margin: 3px;
+  padding-inline: 10px;
+  display: grid;
+  place-items: center;
+  color: var(--light);
+}

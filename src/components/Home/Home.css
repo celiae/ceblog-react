@@ -1,0 +1,55 @@
+.Cards {
+  display: grid;
+  place-items: center;
+}
+.Card {
+  padding: 1rem;
+  color: var(--blue);
+  background: var(--dark);
+  cursor: pointer;
+  margin-bottom: 1rem;
+  display: grid;
+  width: 100%;
+}
+.CardHeader {
+  margin-bottom: 1rem;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: 1px solid var(--blue);
+}
+.CardDate {
+  margin-right: auto;
+  font-size: 0.8rem;
+  color: var(--light);
+}
+.CardTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  align-items: flex - end;
+  font-family: Tapestry;
+  height: 5rem;
+}
+.CardFooter {
+  display: flex;
+  justify-content: space - between;
+  align-items: center;
+}
+.CardImage {
+  width: 80%;
+  margin-right: 1rem;
+}
+.CategoryBox {
+  width: 100%;
+  display: flex;
+  justify-content: flex -end;
+}
+.CategoryText {
+  background: var(--blue);
+  color: var(--dark);
+  padding: 5px;
+  margin-top: 0.3rem;
+  border-radius: 5px;
+  width: 100px;
+  font-family: RobotoMono Italic;
+}

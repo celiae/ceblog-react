@@ -1,0 +1,25 @@
+.Info  {
+  display: grid;
+  grid-template-columns: 50% auto;
+  height: 10rem;
+};
+.Creator  {
+  display: grid;
+  place-items: center;
+  color: var(--dark);
+};
+.Complex  {
+  background: var(--blue);
+  display: grid;
+  grid-template-rows: auto auto;
+  color: var(--light);
+  font-size: 1.5rem;
+};
+.Tc  {
+  margin-top: 1rem;
+};
+.Description  {
+  background: var(--dark);
+  color: var(--light);
+  min-height: 10rem;
+};

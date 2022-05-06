@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Water Brush";
+  src: url(./fonts/Water_Brush/WaterBrush-Regular.ttf);
+}
+
+@font-face {
+  font-family: Tapestry;
+  src: url(./fonts/Tapestry/Tapestry-Regular.ttf);
+}
+
+@font-face {
+  font-family: "RobotoMono Italic";
+  src: url(./fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+img {
+  width: 300px;
+}
+
+input {
+  border: 0;
+}
