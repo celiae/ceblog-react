@@ -1,6 +1,8 @@
 version: "1"
 services:
-  web:
-    build: .
+  ceblog:
+    image: nginx
+    volumes:
+      - /home/celiae/FRONTEND/ceblog-react/build:/usr/share/nginx/html:ro
     ports:
       - "3000:80"
